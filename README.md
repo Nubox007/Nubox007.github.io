@@ -2,7 +2,7 @@
 
 
 # Solved.ac
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=sjhblieve)](https://solved.ac/sjhblieve)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sjhblieve)](https://solved.ac/sjhblieve/)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nubox007&layout=compact&theme=merko)
 
