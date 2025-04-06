@@ -3,8 +3,8 @@
 
 ## Skills
 
-![C++](https://img.shields.io/badge/#00599C.svg?&style=for-the-badge&logo=C++&logoColor=white)
-![Unity](https://img.shields.io/badge/#FFFFFF.svg?&style=for-the-badge&logo=Unity&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C.svg?&style=for-the-badge&logo=C++&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-FFFFFF.svg?&style=for-the-badge&logo=Unity&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 
 
