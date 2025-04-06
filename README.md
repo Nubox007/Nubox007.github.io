@@ -11,12 +11,12 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nubox007&layout=compact&theme=merko)
 
-----
-## Tools 
+--
+## Projects
 
 
 
-
+--
 ## Solved.ac
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sjhblieve)](https://solved.ac/sjhblieve/)
 
