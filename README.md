@@ -1,10 +1,23 @@
 # My Profile
 
 
-# Solved.ac
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sjhblieve)](https://solved.ac/sjhblieve/)
+## Skills
+
+![C++](https://img.shields.io/badge/#00599C.svg?&style=for-the-badge&logo=C++&logoColor=white)
+![Unity](https://img.shields.io/badge/#FFFFFF.svg?&style=for-the-badge&logo=Unity&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nubox007&layout=compact&theme=merko)
+
+----
+## Tools 
+
+
+
+
+## Solved.ac
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sjhblieve)](https://solved.ac/sjhblieve/)
 
 ----
 
