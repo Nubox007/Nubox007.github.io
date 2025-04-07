@@ -1,0 +1,10 @@
+^C:\USERS\SJHBL\ONEDRIVE\바탕 화면\NUBOX\BUILD\CMAKEFILES\49D2692B0E693202DCA1367B11BDDF72\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/sjhbl/OneDrive/바탕 화면/Nubox" "-BC:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build/BackJoonCode.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

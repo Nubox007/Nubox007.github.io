@@ -1,0 +1,3 @@
+C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/out/build/x64-Debug/CMakeFiles/BackJoonCode.dir
+C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

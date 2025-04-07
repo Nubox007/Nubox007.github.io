@@ -1,0 +1,10 @@
+^C:\USERS\SJHBL\ONEDRIVE\바탕 화면\NUBOX\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/sjhbl/OneDrive/바탕 화면/Nubox" "-BC:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build" --check-stamp-file "C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
