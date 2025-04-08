@@ -1,39 +1,45 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
-#include <chrono>
+#include <string>
 #define INITIO std::ios_base::sync_with_stdio(0); std::cin.tie(0); std::cout.tie(0);
 
-long long a, b;
+std::vector<std::string> matrix;
+bool visit[5][5];
+int r, c, k;
 int cnt = 0;
+
+void DFS(int x, int y, int len = 1)
+{
+    
+    if(x >= r || x < 0 || y >= c || y < 0) return;
+    else if(visit[x][y] || matrix[x][y] == 'T') return;
+    else if(x == 0 && y == c-1)
+    {
+        if(k == len) ++cnt;
+        return;
+    }
+
+    visit[x][y] = true;
+    DFS(x+1, y, len+1);
+    DFS(x-1, y, len+1);
+    DFS(x, y+1, len+1);
+    DFS(x, y-1, len+1);
+    visit[x][y] = false;
+    return;
+}
 
 int main()
 {
 
     INITIO;
-    std::vector<int> csArr(10000001,1), prime;
-    for (int i = 2; i <= 10000000; i++)
-    {
-        if (csArr[i]) 
-        {
-            prime.push_back(i);
-            for (int j = i * 2; j <= 10000000; j += i)
-            csArr[j] = 0;
-        }
-    }  
-    std::cin >> a >> b;
+    std::cin >> r >> c >> k;
+    
+    matrix.resize(r);
 
-    for(int i : prime)
-    {
-        long long temp = i;
-        while(temp <= (b/i))
-        {
-            temp*=i;
-            if(temp >= a) ++cnt;
-        }
-    }
+    for(int i = 0; i < r; ++i)
+        std::cin >> matrix[i];                
+    
+    DFS(r-1, 0);
     std::cout << cnt << std::endl;
-
-
     return 0;
 }
