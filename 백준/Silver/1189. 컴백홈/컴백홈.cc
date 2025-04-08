@@ -8,15 +8,6 @@ bool visit[5][5];
 int r, c, k;
 int cnt = 0;
 
-void InitVisit()
-{
-    for(int i = 0; i < 5; ++i)
-    {
-        for(int j = 0; j < 5; ++j)
-            visit[i][j] = false;
-    }
-    return;
-}
 void DFS(int x, int y, int len = 1)
 {
     
@@ -48,12 +39,7 @@ int main()
     for(int i = 0; i < r; ++i)
         std::cin >> matrix[i];                
     
-    
-   
-    InitVisit();
     DFS(r-1, 0);
     std::cout << cnt << std::endl;
-
-
     return 0;
 }
