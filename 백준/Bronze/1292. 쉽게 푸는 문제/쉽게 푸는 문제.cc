@@ -5,10 +5,6 @@ using namespace std;
 
 int a, b;
 
-int Calc2(int n)
-{
-    return (n*(n+1)*(2*n+1)) / 6;
-}
 int Calc(int target)
 {
     int rest = 0;
@@ -19,14 +15,13 @@ int Calc(int target)
         if(idx+i >= target)
         {
             rest = (target - idx) * i;
-            result = Calc2(i-1);
+            result = (i*(i-1)*(2*i-1)) / 6;
             break;
         }else
             idx += i;
     }
     return result + rest;
 }
-
 int main() 
 {
     INITIO;
