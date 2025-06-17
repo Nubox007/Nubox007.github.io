@@ -1,3 +1,0 @@
-C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build/CMakeFiles/BackJoonCode.dir
-C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/sjhbl/OneDrive/바탕 화면/Nubox/build/CMakeFiles/ZERO_CHECK.dir
