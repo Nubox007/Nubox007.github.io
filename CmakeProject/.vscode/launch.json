@@ -11,6 +11,7 @@
             "program": "${workspaceFolder}/build/Debug/cpp.exe",
             "cwd": "${workspaceFolder}/build/Debug",
             "stopAtEntry": true,
+            "console": "integratedTerminal"
 
         }
     ],
