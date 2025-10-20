@@ -37,7 +37,7 @@ timezone: Asia/Korea # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: Nubox's Blog # Needed for Siteleaf
     output: true
     description: "This is merely a demo, find out more [about Garth](about)" # The post list page content
 
