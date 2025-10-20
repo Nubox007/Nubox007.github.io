@@ -39,7 +39,8 @@ collections:
   posts:
     title: Nubox's Blog # Needed for Siteleaf
     output: true
-    description: "This is merely a demo, find out more [about Garth](about)" # The post list page content
+    description: "게임 개발자가 되기 위한 공부 기록" 
+    # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
